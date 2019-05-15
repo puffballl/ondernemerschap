@@ -93,10 +93,10 @@ header {
   .containerContainer{
     margin: 10rem;
     padding: 2rem;
-    background: #3c7085;
+    background: #c5c6c7;
 
     .itemContainer{
-      background: #66fcf1;
+      background: #1a313a;
       display: flex;
       flex-flow: row wrap;
       justify-content: space-evenly;
@@ -105,7 +105,30 @@ header {
         width: 20%;
         min-width: 190px;
         margin: 2rem;
-        background: #c5c6c7;
+        background: linear-gradient(360deg, #45a29e 0%, #3c7085);
+
+        p{
+          font-size: 0.8rem;
+        }
+        .itemFooter {
+          display: flex;
+          justify-content: space-around;
+          border-top: 0.1rem solid #3c7085;
+
+          :first-child {
+            border-right: 0.1rem solid #3c7085;
+
+          }
+          a{
+            width: 50%;
+            text-align: center;
+
+            i {
+              margin: 0.5rem;
+              font-size: 2rem;
+            }
+          }
+        }
       }
     }
   }
