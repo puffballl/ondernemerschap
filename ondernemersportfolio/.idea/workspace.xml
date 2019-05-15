@@ -20,8 +20,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="450">
-                  <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+                <state relative-caret-position="609">
+                  <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -33,8 +33,18 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-556">
-                  <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+                <state relative-caret-position="375">
+                  <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#62#212#0" />
+                    <element signature="e#4#76#0" />
+                    <element signature="e#331#337#0" />
+                    <element signature="e#378#384#0" />
+                    <element signature="e#300#1577#0" />
+                    <element signature="e#1752#1799#0" />
+                    <element signature="e#2450#2992#0" />
+                    <element signature="e#2993#3527#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -119,7 +129,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,19 +154,19 @@
       <option name="presentableId" value="Default" />
       <updated>1557904279209</updated>
       <workItem from="1557904280531" duration="9019000" />
-      <workItem from="1557914039664" duration="10208000" />
+      <workItem from="1557914039664" duration="13076000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19227000" />
+    <option name="totallyTimeSpent" value="22095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="280" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.11015625" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.11015625" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3288948" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -196,15 +206,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-556">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="375">
+          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+          <folding>
+            <element signature="e#62#212#0" />
+            <element signature="e#4#76#0" />
+            <element signature="e#331#337#0" />
+            <element signature="e#378#384#0" />
+            <element signature="e#300#1577#0" />
+            <element signature="e#1752#1799#0" />
+            <element signature="e#2450#2992#0" />
+            <element signature="e#2993#3527#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="609">
+          <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
         </state>
       </provider>
     </entry>

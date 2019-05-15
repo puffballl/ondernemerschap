@@ -10,8 +10,14 @@
 body{
   background-color: #ffffff;
   margin: 0;
-  font-family: sans-serif;
   scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+}
+h2{
+  font-family: 'Raleway', sans-serif;
 }
 
 header {
@@ -81,7 +87,28 @@ header {
 }
 
 .main{
-  padding-left: 5rem;
+  margin: 10rem;
+
+
+  .containerContainer{
+    margin: 10rem;
+    padding: 2rem;
+    background: #3c7085;
+
+    .itemContainer{
+      background: #66fcf1;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+
+      .item{
+        width: 20%;
+        min-width: 190px;
+        margin: 2rem;
+        background: #c5c6c7;
+      }
+    }
+  }
 }
 
 .sticky {
