@@ -46,7 +46,7 @@ header {
         background-color: #0b0c10;
 
         :hover {
-          background: linear-gradient(130deg, #45a29e 0%, #3c7085);
+          background: #45a29e;
           box-shadow: none;
           color: white;
           transition: .3s all ease-in-out;
@@ -57,7 +57,7 @@ header {
         a {
           text-decoration: none;
           color: #20323e;
-          background-color: #66fcf1;
+          background-color: #45a29e;
           text-align: center;
           border: 5px solid #45a29e;
           padding: 1.5rem;
@@ -107,6 +107,7 @@ header {
         margin: 2rem;
         background: linear-gradient(360deg, #45a29e 0%, #3c7085);
 
+
         p{
           font-size: 0.8rem;
         }
@@ -115,17 +116,21 @@ header {
           justify-content: space-around;
           border-top: 0.1rem solid #3c7085;
 
-          :first-child {
-            border-right: 0.1rem solid #3c7085;
 
-          }
           a{
             width: 50%;
             text-align: center;
+            border-right: 0.1rem solid #3c7085;
+            :last-of-type{
+              border-right-width: 0;
+            }
+
+
 
             i {
               margin: 0.5rem;
               font-size: 2rem;
+              border: none !important;
             }
           }
         }
@@ -138,6 +143,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  background: linear-gradient(#1d474d,#0b0c10);
 }
 
 @-webkit-keyframes shadow-pop-bl {
