@@ -20,11 +20,10 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="580">
-                  <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+                <state relative-caret-position="414">
+                  <caret line="41" column="128" selection-start-line="41" selection-start-column="128" selection-end-line="41" selection-end-column="128" />
                   <folding>
                     <element signature="n#head#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
@@ -37,8 +36,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1247">
-                  <caret line="145" column="47" selection-start-line="145" selection-start-column="47" selection-end-line="145" selection-end-column="47" />
+                <state relative-caret-position="173">
+                  <caret line="135" column="17" lean-forward="true" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
                   <folding>
                     <element signature="e#62#212#0" />
                     <element signature="e#2788#3330#0" />
@@ -109,17 +108,6 @@
               <item name="ondernemersportfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="ondernemersportfolio" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ondernemersportfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ondernemersportfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ondernemersportfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ondernemersportfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="style.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -161,21 +149,21 @@
       <workItem from="1557904280531" duration="9019000" />
       <workItem from="1557914039664" duration="16527000" />
       <workItem from="1557989435660" duration="2979000" />
-      <workItem from="1557992588773" duration="3391000" />
+      <workItem from="1557992588773" duration="4849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31916000" />
+    <option name="totallyTimeSpent" value="33374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="280" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17285945" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17285945" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49757674" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49757674" visible="true" weight="0.10410959" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5024233" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3288948" />
@@ -213,8 +201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1247">
-          <caret line="145" column="47" selection-start-line="145" selection-start-column="47" selection-end-line="145" selection-end-column="47" />
+        <state relative-caret-position="173">
+          <caret line="135" column="17" lean-forward="true" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
           <folding>
             <element signature="e#62#212#0" />
             <element signature="e#2788#3330#0" />
@@ -225,11 +213,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        <state relative-caret-position="414">
+          <caret line="41" column="128" selection-start-line="41" selection-start-column="128" selection-end-line="41" selection-end-column="128" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#section#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

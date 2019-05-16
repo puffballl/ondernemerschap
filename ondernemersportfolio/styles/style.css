@@ -4,6 +4,9 @@ body {
   scroll-behavior: smooth;
   font-family: "Raleway", sans-serif;
 }
+body a {
+  text-decoration: none;
+}
 
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -20,6 +23,7 @@ header {
 header .nav {
   background-color: #0b0c10;
   width: 100%;
+  margin-bottom: 10rem;
 }
 header .nav ul {
   margin-top: 0;
@@ -102,6 +106,7 @@ header .bighead .txtcontainer {
   border-top: 0.1rem solid #3c7085;
 }
 .main .containerContainer .itemContainer .item .itemFooter a {
+  text-decoration: none;
   width: 50%;
   text-align: center;
   border-right: 0.1rem solid #3c7085;
@@ -110,6 +115,7 @@ header .bighead .txtcontainer {
   border-right-width: 0;
 }
 .main .containerContainer .itemContainer .item .itemFooter a i {
+  color: #b8b9ba;
   margin: 0.5rem;
   font-size: 2rem;
   border: none !important;
@@ -120,6 +126,7 @@ header .bighead .txtcontainer {
   top: 0;
   width: 100%;
   background: linear-gradient(#1d474d, #0b0c10);
+  margin-bottom: 10rem;
 }
 
 @-webkit-keyframes shadow-pop-bl {
