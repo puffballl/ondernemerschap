@@ -1,5 +1,4 @@
 body {
-  background: linear-gradient(#222629 75%, #61892f);
   margin: 0;
   scroll-behavior: smooth;
   font-family: "Raleway", sans-serif;
@@ -16,17 +15,26 @@ h2 {
   font-family: "Raleway", sans-serif;
 }
 
+.subtxt {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.kop {
+  border-bottom: 0.2rem solid black;
+  padding-bottom: 2rem;
+}
+
 header {
   width: 100%;
   color: #d9dadb;
 }
 header .nav {
-  background-color: #222629;
+  background-color: #5d9b84;
   width: 100%;
-  margin-bottom: 10rem;
 }
 header .nav ul {
-  margin-top: 0;
+  margin: 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -44,11 +52,11 @@ header .nav ul li {
   transition: 0.3s all ease-in-out;
   display: flex;
   position: relative;
-  background-color: #222629;
+  background-color: #5d9b84;
 }
 header .nav ul li :hover {
-  background: #86c232;
-  border: 5px solid #86c232;
+  background: #4c364d;
+  border: 5px solid #4c364d;
   box-shadow: none;
   color: white;
   transition: 0.3s all ease-in-out;
@@ -58,9 +66,9 @@ header .nav ul li :hover {
 header .nav ul li a {
   text-decoration: none;
   color: #20323e;
-  background-color: #77a838;
+  background-color: #5d9b84;
   text-align: center;
-  border: 5px solid #77a838;
+  border: 5px solid #5d9b84;
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -72,35 +80,52 @@ header .nav ul li a {
 }
 header .bighead {
   padding: 7.5rem;
-  background: linear-gradient(#6b6e70 15%, #222629);
+  background: linear-gradient(#41354d, #537479, #5d9b84);
 }
 header .bighead .txtcontainer {
   max-width: 50%;
 }
 
 .main {
-  margin: 10rem;
+  margin: 0;
+  padding-top: 10rem;
 }
 .main .containerContainer {
-  margin: 10rem;
+  margin: 0 10rem 10rem;
   padding: 2rem;
-  background: #474b4f;
-  border-radius: 20px;
+  background: transparent;
+  text-align: center;
 }
 .main .containerContainer .itemContainer {
-  background: #6b6e70;
+  background: #5b9aa0;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
 .main .containerContainer .itemContainer .item {
   width: 20%;
-  min-width: 190px;
+  min-width: 19rem;
   margin: 2rem;
-  background: linear-gradient(360deg, #45a29e 0%, #3c7085);
+  border: none;
+  background-color: #96ceb4;
+}
+.main .containerContainer .itemContainer .item :first-child {
+  background: transparent;
+}
+.main .containerContainer .itemContainer .item .photoframe {
+  max-height: 15rem;
+  background: transparent;
+}
+.main .containerContainer .itemContainer .item .photoframe img {
+  max-height: 15rem;
+  max-width: 19rem;
 }
 .main .containerContainer .itemContainer .item p {
   font-size: 0.8rem;
+  text-align: left;
+}
+.main .containerContainer .itemContainer .item h2, .main .containerContainer .itemContainer .item p {
+  padding: 0.5rem 2rem 2rem;
 }
 .main .containerContainer .itemContainer .item .itemFooter {
   display: flex;
@@ -117,44 +142,40 @@ header .bighead .txtcontainer {
   border-right-width: 0;
 }
 .main .containerContainer .itemContainer .item .itemFooter a i {
-  color: #86c232;
+  color: #41354d;
   margin: 0.5rem;
   font-size: 2rem;
   border: none !important;
-}
-
-.nav + .main {
-  padding-top: 60px;
 }
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #222629;
+  background: transparent;
   margin-bottom: 10rem;
 }
 
 @-webkit-keyframes shadow-pop-bl {
   0% {
-    box-shadow: 0 0 #61892f, 0 0 #61892f, 0 0 #61892f, 0 0 #61892f, 0 0 #61892f, 0 0 #61892f, 0 0 #61892f, 0 0 #61892f;
+    box-shadow: 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f;
     -webkit-transform: translateX(0) translateY(0);
     transform: translateX(0) translateY(0);
   }
   100% {
-    box-shadow: -1px 1px #61892f, -2px 2px #61892f, -3px 3px #61892f, -4px 4px #61892f, -5px 5px #61892f, -6px 6px #61892f, -7px 7px #61892f, -8px 8px #61892f;
+    box-shadow: -1px 1px #474b4f, -2px 2px #474b4f, -3px 3px #474b4f, -4px 4px #474b4f, -5px 5px #474b4f, -6px 6px #474b4f, -7px 7px #474b4f, -8px 8px #474b4f;
     -webkit-transform: translateX(8px) translateY(-8px);
     transform: translateX(8px) translateY(-8px);
   }
 }
 @keyframes shadow-pop-bl {
   0% {
-    box-shadow: 0 0 #61892f, 0 0 #61892f, 0 0 #61892f, 0 0 #61892f, 0 0 #61892f, 0 0 #61892f, 0 0 #61892f, 0 0 #61892f;
+    box-shadow: 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f, 0 0 #474b4f;
     -webkit-transform: translateX(0) translateY(0);
     transform: translateX(0) translateY(0);
   }
   100% {
-    box-shadow: -1px 1px #61892f, -2px 2px #61892f, -3px 3px #61892f, -4px 4px #61892f, -5px 5px #61892f, -6px 6px #61892f, -7px 7px #61892f, -8px 8px #61892f;
+    box-shadow: -1px 1px #474b4f, -2px 2px #474b4f, -3px 3px #474b4f, -4px 4px #474b4f, -5px 5px #474b4f, -6px 6px #474b4f, -7px 7px #474b4f, -8px 8px #474b4f;
     -webkit-transform: translateX(8px) translateY(-8px);
     transform: translateX(8px) translateY(-8px);
   }
