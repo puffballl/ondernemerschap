@@ -23,6 +23,8 @@ h2 {
 .kop {
   border-bottom: 0.2rem solid black;
   padding-bottom: 2rem;
+  text-align: left;
+  padding-left: 5rem;
 }
 
 header {
@@ -90,7 +92,7 @@ header .bighead .txtcontainer {
 
 .main {
   margin: 0;
-  padding-top: 6rem;
+  padding-top: 5rem;
 }
 .main .containerContainer {
   margin: 0 5% 5%;
@@ -99,7 +101,6 @@ header .bighead .txtcontainer {
   text-align: center;
 }
 .main .containerContainer .itemContainer {
-  background: #5b9aa0;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -108,6 +109,7 @@ header .bighead .txtcontainer {
   width: 20%;
   min-width: 19rem;
   margin: 2rem;
+  border-radius: 1rem;
   border: none;
   background-color: #96ceb4;
 }
@@ -126,14 +128,13 @@ header .bighead .txtcontainer {
   justify-content: space-around;
   border-top: 0.1rem solid #3c7085;
 }
+.main .containerContainer .itemContainer .item .itemFooter :first-child {
+  border-right: 0.1rem solid #3c7085;
+}
 .main .containerContainer .itemContainer .item .itemFooter a {
   text-decoration: none;
   width: 50%;
   text-align: center;
-  border-right: 0.1rem solid #3c7085;
-}
-.main .containerContainer .itemContainer .item .itemFooter a :last-of-type {
-  border-right: none !important;
 }
 .main .containerContainer .itemContainer .item .itemFooter a i {
   color: #41354d;
@@ -142,11 +143,24 @@ header .bighead .txtcontainer {
   border: none !important;
 }
 
+.footer {
+  background: #3c7085;
+  margin: 0;
+  padding: 1rem;
+}
+.footer :last-child {
+  float: right;
+}
+
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
   background: transparent;
+}
+
+.sticky + .main {
+  padding-top: 5rem;
 }
 
 @-webkit-keyframes shadow-pop-bl {
