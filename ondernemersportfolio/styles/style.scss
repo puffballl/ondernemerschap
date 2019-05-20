@@ -16,16 +16,21 @@ body{
     text-decoration: none;
   }
 }
+
 h1{
   font-family: 'Montserrat', sans-serif;
 }
+
 h2{
   font-family: 'Raleway', sans-serif;
 }
-.subtxt{
+
+.subTxt{
   font-style: italic;
   font-size: 0.8rem;
+  margin-bottom: 0;
 }
+
 .kop{
   border-bottom: 0.2rem solid black;
   padding-bottom: 2rem;
@@ -38,70 +43,66 @@ header {
   color: #d8dabd;
   background: #5d9b84;
 
-
-  .nav {
-    background-color: #5d9b84;
-    width: 100%;
-    overflow: hidden;
-
-    ul {
-      margin: 0;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
-      flex-wrap: wrap;
-      height: 5rem;
-      list-style: none;
-      padding-bottom: 1.5rem;
-
-      li {
-        @include createBox(auto, 2rem, 0.5rem, #5d9b84, 20px);
-        display: flex;
-        position: relative;
-
-        :hover {
-          background: #4c364d;
-          border: 5px solid #4c364d;
-          box-shadow: none;
-          color: white;
-          transition: .3s all ease-in-out;
-          -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-          animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-        }
-
-        a {
-          text-decoration: none;
-          color: #20323e;
-          background-color: #5d9b84;
-          text-align: center;
-          border: 5px solid #5d9b84;
-          padding: 1.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          -webkit-border-radius: 5px;
-          -moz-border-radius: 5px;
-          border-radius: 5px;
-        }
-      }
-    }
-  }
-
   .bighead {
-    padding: 7.5rem 7.5rem 0;
-    margin-bottom: 5rem;
+    padding: 7.5rem;
+
     background: linear-gradient(#41354d, #537479, #5d9b84);
 
-    .txtcontainer{
+    .txtContainer{
       max-width: 50%;
+    }
+  }
+}
+.nav {
+  background-color: #5d9b84;
+  width: 100%;
+  overflow: hidden;
+
+  ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 5rem;
+    list-style: none;
+    padding-bottom: 1.5rem;
+
+    li {
+      @include createBox(auto, 2rem, 0.5rem, #5d9b84, 20px);
+      display: flex;
+      position: relative;
+
+      :hover {
+        background: #4c364d;
+        border: 5px solid #4c364d;
+        color: white;
+        transition: .3s all ease-in-out;
+        -webkit-animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+        animation: shadow-pop-bl 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+      }
+
+      a {
+        text-decoration: none;
+        color: #20323e;
+        background-color: #5d9b84;
+        text-align: center;
+        border: 5px solid #5d9b84;
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+      }
     }
   }
 }
 
 .main{
-  margin: 0;
-  padding-top: 5rem;
+  margin-top: 5rem;
 
 
   .containerContainer{
@@ -111,7 +112,6 @@ header {
     text-align: center;
 
     .itemContainer{
-      //background: #5b9aa0;
       display: flex;
       flex-flow: row wrap;
       justify-content: space-evenly;
@@ -160,23 +160,27 @@ header {
   }
 }
 
+/*
 .footer{
   background: #3c7085;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
   margin: 0;
-  padding: 1rem;
-  :last-child{
-    float: right;
+  padding: 1rem 5rem;
+  :first-child{
+    width: 50%;
   }
 }
+*/
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
-  background: transparent;
+  background: #5d9b84;
 }
-
-.sticky +.main{
+.sticky + .main{
   padding-top: 5rem;
 }
 
@@ -203,7 +207,8 @@ header {
             -5px 5px #41685c,
             -6px 6px #3e6e5b,
             -7px 7px #3f7761,
-            -8px 8px #4e8a73;    -webkit-transform: translateX(8px) translateY(-8px);
+            -8px 8px #4e8a73;
+    -webkit-transform: translateX(8px) translateY(-8px);
     transform: translateX(8px) translateY(-8px);
   }
 }
