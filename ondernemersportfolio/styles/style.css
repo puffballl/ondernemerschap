@@ -110,17 +110,17 @@ header .bighead .txtcontainer {
   margin: 2rem;
   border: none;
   background-color: #96ceb4;
+  /*.photoframe{
+    max-height: 15rem;
+    background: transparent;
+    img{
+      max-height: 15rem;
+      max-width: 19rem;
+    }
+  }*/
 }
 .main .containerContainer .itemContainer .item :first-child {
   background: transparent;
-}
-.main .containerContainer .itemContainer .item .photoframe {
-  max-height: 15rem;
-  background: transparent;
-}
-.main .containerContainer .itemContainer .item .photoframe img {
-  max-height: 15rem;
-  max-width: 19rem;
 }
 .main .containerContainer .itemContainer .item p {
   font-size: 0.8rem;
@@ -159,7 +159,7 @@ header .bighead .txtcontainer {
 }
 
 .sticky + .main {
-  padding-top: 6rem;
+  padding-top: 16rem;
 }
 
 @-webkit-keyframes shadow-pop-bl {

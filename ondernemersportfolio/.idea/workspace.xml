@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a824ff49-40f7-4ccf-9b7e-0888b7f42894" name="Default Changelist" comment="" />
+    <list default="true" id="a824ff49-40f7-4ccf-9b7e-0888b7f42894" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../opdrachten/Interview/~$terview.docx" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +26,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="422">
-                  <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+                <state relative-caret-position="1200">
+                  <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
                 </state>
               </provider>
             </entry>
@@ -33,18 +39,14 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/styles/style.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="32" selection-start-line="32" selection-end-line="32" />
+                <state relative-caret-position="496">
+                  <caret line="183" column="1" lean-forward="true" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
                   <folding>
                     <element signature="e#62#212#0" />
-                    <element signature="e#218#328#0" />
-                    <element signature="e#331#375#0" />
-                    <element signature="e#378#419#0" />
-                    <element signature="e#435#441#0" />
-                    <element signature="e#486#492#0" />
-                    <element signature="e#3484#4026#0" />
-                    <element signature="e#4059#4280#0" />
-                    <element signature="e#4288#4559#0" />
+                    <element signature="e#2568#2746#0" />
+                    <element signature="e#3457#3555#0" />
+                    <element signature="e#3596#4138#0" />
+                    <element signature="e#4139#4673#0" />
                   </folding>
                 </state>
               </provider>
@@ -158,21 +160,22 @@
       <workItem from="1557904280531" duration="9019000" />
       <workItem from="1557914039664" duration="16527000" />
       <workItem from="1557989435660" duration="2979000" />
-      <workItem from="1557992588773" duration="23706000" />
+      <workItem from="1557992588773" duration="23967000" />
+      <workItem from="1558336547155" duration="1254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52231000" />
+    <option name="totallyTimeSpent" value="53746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1280" y="280" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17285945" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.26494345" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.49757674" visible="true" weight="0.07534247" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49757674" weight="0.07534247" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5024233" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32876712" />
@@ -228,6 +231,20 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/styles/style.css.map">
@@ -246,25 +263,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+        <state relative-caret-position="1200">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="496">
+          <caret line="183" column="1" lean-forward="true" selection-start-line="183" selection-start-column="1" selection-end-line="183" selection-end-column="1" />
           <folding>
             <element signature="e#62#212#0" />
-            <element signature="e#218#328#0" />
-            <element signature="e#331#375#0" />
-            <element signature="e#378#419#0" />
-            <element signature="e#435#441#0" />
-            <element signature="e#486#492#0" />
-            <element signature="e#3484#4026#0" />
-            <element signature="e#4059#4280#0" />
-            <element signature="e#4288#4559#0" />
+            <element signature="e#2568#2746#0" />
+            <element signature="e#3457#3555#0" />
+            <element signature="e#3596#4138#0" />
+            <element signature="e#4139#4673#0" />
           </folding>
         </state>
       </provider>
