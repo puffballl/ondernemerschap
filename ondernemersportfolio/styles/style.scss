@@ -53,7 +53,7 @@ header {
       padding-bottom: 1.5rem;
 
       li {
-        @include createBox(auto, 2rem, 0, #5d9b84, 20px);
+        @include createBox(auto, 2rem, 0.5rem, #5d9b84, 20px);
         display: flex;
         position: relative;
 
@@ -84,7 +84,6 @@ header {
         }
       }
     }
-
   }
 
   .bighead {
@@ -109,15 +108,11 @@ header {
     background: transparent;
     text-align: center;
 
-
-
     .itemContainer{
       background: #5b9aa0;
       display: flex;
       flex-flow: row wrap;
       justify-content: space-evenly;
-
-
 
       .item{
         width: 20%;
@@ -173,7 +168,6 @@ header {
   width: 100%;
   background: transparent;
 }
-
 
 @-webkit-keyframes shadow-pop-bl {
   0% {
