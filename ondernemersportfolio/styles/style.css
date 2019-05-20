@@ -142,19 +142,18 @@ header .bighead .txtContainer {
   border: none !important;
 }
 
-/*
-.footer{
+.footer {
   background: #3c7085;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   margin: 0;
   padding: 1rem 5rem;
-  :first-child{
-    width: 50%;
-  }
 }
-*/
+.footer :first-child {
+  width: 50%;
+}
+
 .sticky {
   position: fixed;
   top: 0;
