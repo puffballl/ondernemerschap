@@ -110,14 +110,6 @@ header .bighead .txtcontainer {
   margin: 2rem;
   border: none;
   background-color: #96ceb4;
-  /*.photoframe{
-    max-height: 15rem;
-    background: transparent;
-    img{
-      max-height: 15rem;
-      max-width: 19rem;
-    }
-  }*/
 }
 .main .containerContainer .itemContainer .item :first-child {
   background: transparent;
@@ -155,7 +147,6 @@ header .bighead .txtcontainer {
   top: 0;
   width: 100%;
   background: transparent;
-  margin-bottom: 10rem;
 }
 
 .sticky + .main {

@@ -129,15 +129,6 @@ header {
           background: transparent;
         }
 
-        /*.photoframe{
-          max-height: 15rem;
-          background: transparent;
-          img{
-            max-height: 15rem;
-            max-width: 19rem;
-          }
-        }*/
-
         p{
           font-size: 0.8rem;
           text-align: left;
@@ -150,7 +141,6 @@ header {
           justify-content: space-around;
           border-top: 0.1rem solid #3c7085;
 
-
           a{
             text-decoration: none;
             width: 50%;
@@ -159,8 +149,6 @@ header {
             :last-of-type{
               border-right: none;
             }
-
-
 
             i {
               color: #41354d;
@@ -180,8 +168,9 @@ header {
   top: 0;
   width: 100%;
   background: transparent;
-  margin-bottom: 10rem;
+  //margin-bottom: 10rem;
 }
+
 .sticky + .main{
   padding-top: 16rem
 }
