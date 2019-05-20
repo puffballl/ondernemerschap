@@ -33,7 +33,7 @@ h2{
 
 header {
   width: 100%;
-  color: #d9dadb;
+  color: #d8dabd;
   background: #5d9b84;
 
 
@@ -53,10 +53,9 @@ header {
       padding-bottom: 1.5rem;
 
       li {
-        @include createBox(auto, 2rem, 0, white, 20px);
+        @include createBox(auto, 2rem, 0, #5d9b84, 20px);
         display: flex;
         position: relative;
-        background-color: #5d9b84;
 
         :hover {
           background: #4c364d;
