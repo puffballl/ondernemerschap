@@ -165,8 +165,12 @@ header {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  align-content: space-around;
   margin: 0;
   padding: 1rem 5rem;
+  a{
+    text-decoration: none;
+  }
   :first-child{
     width: 50%;
   }
